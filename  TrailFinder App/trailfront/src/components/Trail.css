@@ -1,0 +1,158 @@
+.trail-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0 5rem 0;
+    align-items: center;
+}
+
+.full {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    margin: 0 1rem 0 0;
+}
+
+.right {
+    margin: 0 0 0 1rem;
+}
+
+.trail-info {
+    display: flex;
+    width: 60%;
+    margin: 0.5rem 0;
+}
+
+.trail-info p {
+    margin: 0;
+}
+
+.trail-info span {
+    font-weight: normal;
+}
+
+.trail-info a {
+    color: var(--asset-hover);
+}
+
+.trail-info a:hover {
+    color: var(--asset-active);
+    text-decoration: underline;
+}
+
+.trail-info li::marker {
+    content: '— ';
+}
+
+.trail-info button {
+    width: 85%;
+    height: auto;
+    padding: 0.5rem;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    color: var(--inverse-text);
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: 0 0 2rem var(--text);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.trail-info div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--asset-background);
+}
+
+.trail-title div {
+    display: flex;
+    border: 0.25rem solid var(--asset-active);
+    justify-content: center;
+}
+
+.trail-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: -0.05rem;
+}
+
+.trail-title h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    letter-spacing: -0.05rem;
+}
+
+.previews {
+    width: 60%;
+    min-height: 20rem;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    background-color: var(--asset-background);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.description {
+    width: 70%;
+    height: auto;
+}
+
+.hazards {
+    width: 30%;
+    height: auto;
+}
+
+.hazards ul {
+    padding: 0 0 0 1.5rem;
+    margin: 0;
+}
+
+.rating-selection {
+    display: flex;
+    flex-direction: row !important;
+    padding: 0.5rem 0 !important;
+    width: fit-content !important;
+}
+
+.rating-selection label {
+    margin: 0 0.25rem;
+}
+
+.new-review {
+    display: flex;
+    flex-direction: row !important;
+    width: 85%;
+    height: 3rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.new-review input {
+    padding: 0 0.5rem;
+    margin: 0 0.25rem;
+    border: 0.25rem solid var(--asset-border);
+    border-radius: 0.5rem;
+    font-style: inherit;
+}
+
+.new-review input[type="text"] {
+    width: 85%;
+    align-items: start !important;
+}
+
+.new-review input[type="number"] {
+    width: 15%;
+}
+
+.delete-review-button {
+    max-width: 25%;
+    max-height: fit-content;
+}

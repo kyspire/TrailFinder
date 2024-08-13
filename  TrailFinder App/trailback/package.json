@@ -1,0 +1,22 @@
+{
+  "name": "trailback",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "connect_win": ".\\scripts\\win\\db-tunnel.cmd",
+    "connect_mac": ".\\scripts\\win\\db-tunnel.sh"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "oracledb": "^6.6.0"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "google-auth-library": "^9.13.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
